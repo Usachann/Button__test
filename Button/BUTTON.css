@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* 
+.button {
+    /* У грид по стандарту все сверху вниз, по блочной оси. Но можно сделать так, чтобы поставить элементы по инлайну 
+    display: inline-grid;   
+    /* Это простой варик сделать кнопку, которая идеально оцентрована по гриду. *
+    grid-auto-flow: column;
+    column-gap: 5px;
+    align-items: center;
+    margin: 10px;   
+    padding: 10px 30px;
+    background-color: aqua;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 50px;
+}
+ */
+ .button {
+    /* Тоже самое, только с flex. */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 30px;
+    background-color: aqua;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 50px;
+}
+ 
+
+.main__icon {
+    width: 36px;
+    height: 36px;
+    fill: currentColor;
+}
+
+.button_one{
+    background-color:blue
+}
+
+.button_two{
+    background-color: blueviolet;
+}
+
+.button_three{
+    background-color: brown;
+}
+
