@@ -1,0 +1,32 @@
+
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__item-container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.footer__item-text {
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    right: 80px;
+    padding-top: 150px;
+}
+
+.footer__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+}
